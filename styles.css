@@ -1,0 +1,435 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 2400px;
+	 height: 1500px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1962px;
+	 height: 1226px;
+	 z-index:1;
+} 
+
+ #VectorSmartObject 
+{ 
+	 left: -27px; 
+	 top: -32px; 
+	 position: absolute; 
+	 width: 1962px;
+	 height: 1226px;
+	 z-index:3;
+} 
+
+ #VectorSmartObject_0 
+{ 
+	 left: -339px; 
+	 top: -181px; 
+	 position: absolute; 
+	 width: 3775px;
+	 height: 2359px;
+	 z-index:4;
+} 
+
+ #VectorSmartObject_1 
+{ 
+	 left: -337px; 
+	 top: 39px; 
+	 position: absolute; 
+	 width: 3771px;
+	 height: 1919px;
+	 z-index:5;
+} 
+
+ #island 
+{ 
+	 left: 256px; 
+	 top: 419px; 
+	 position: absolute; 
+	 width: 254px;
+	 height: 106px;
+	 z-index:6;
+} 
+
+ #red-circle_1 
+{ 
+	 left: 215px; 
+	 top: 437px; 
+	 position: absolute; 
+	 width: 121px;
+	 height: 121px;
+	 z-index:7;
+} 
+
+ #num1 
+{ 
+	 left: 259px; 
+	 top: 472px; 
+	 position: absolute; 
+	 width: 21px;
+	 height: 53px;
+	 z-index:8;
+} 
+
+ #Pirate 
+{ 
+	 left: 279px; 
+	 top: 197px; 
+	 position: absolute; 
+	 width: 182px;
+	 height: 272px;
+	 z-index:9;
+} 
+
+ #num2 
+{ 
+	 left: 950px; 
+	 top: 223px; 
+	 position: absolute; 
+	 width: 454px;
+	 height: 249px;
+	 z-index:10;
+} 
+
+ #red-circle_2 
+{ 
+	 left: 926px; 
+	 top: 313px; 
+	 position: absolute; 
+	 width: 121px;
+	 height: 121px;
+	 z-index:11;
+} 
+
+ #rum 
+{ 
+	 left: 967px; 
+	 top: 347px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 54px;
+	 z-index:12;
+} 
+
+ #num3 
+{ 
+	 left: 1759px; 
+	 top: 260px; 
+	 position: absolute; 
+	 width: 487px;
+	 height: 318px;
+	 z-index:13;
+} 
+
+ #red-circle_3 
+{ 
+	 left: 1812px; 
+	 top: 384px; 
+	 position: absolute; 
+	 width: 121px;
+	 height: 121px;
+	 z-index:14;
+} 
+
+ #dragon 
+{ 
+	 left: 1853px; 
+	 top: 418px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 55px;
+	 z-index:15;
+} 
+
+ #treasur 
+{ 
+	 left: 896px; 
+	 top: 415px; 
+	 position: absolute; 
+	 width: 653px;
+	 height: 584px;
+	 z-index:16;
+} 
+
+ #red-circle_4 
+{ 
+	 left: 890px; 
+	 top: 772px; 
+	 position: absolute; 
+	 width: 121px;
+	 height: 121px;
+	 z-index:17;
+} 
+
+ #num4 
+{ 
+	 left: 929px; 
+	 top: 807px; 
+	 position: absolute; 
+	 width: 40px;
+	 height: 53px;
+	 z-index:18;
+} 
+
+ #message 
+{ 
+	 left: 207px; 
+	 top: 1033px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 124px;
+	 z-index:19;
+} 
+
+ #red-circle_5 
+{ 
+	 left: 184px; 
+	 top: 1074px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 121px;
+	 z-index:20;
+} 
+
+ #num5 
+{ 
+	 left: 227px; 
+	 top: 1109px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 54px;
+	 z-index:21;
+} 
+
+ #island6 
+{ 
+	 left: 1728px; 
+	 top: 651px; 
+	 position: absolute; 
+	 width: 642px;
+	 height: 599px;
+	 z-index:22;
+} 
+
+ #red-circle_6 
+{ 
+	 left: 1699px; 
+	 top: 1059px; 
+	 position: absolute; 
+	 width: 121px;
+	 height: 121px;
+	 z-index:23;
+} 
+
+ #num6 
+{ 
+	 left: 1741px; 
+	 top: 1094px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 54px;
+	 z-index:24;
+}
+
+#player 
+{ 
+	 left: 450px; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 150px;
+	 z-index:25;
+} 
+
+ #side-bar 
+{ 
+	 left: 1480px; 
+	 top: 94px; 
+	 position: absolute; 
+	 width: 435px;
+	 height: 987px;
+	 z-index:25;
+} 
+
+ #roll-dice-div 
+{ 
+	 left: 60px; 
+	 top: 300px; 
+	 position:absolute; 
+	 width: 317px;
+	 height: 101px;
+	 z-index:26;
+} 
+
+ #Rolldice 
+{ 
+	 left: 100px; 
+	 top: 325px; 
+	 position: absolute; 
+	 width: 225px;
+	 height: 47px;
+	 z-index:27;
+} 
+
+ #Browsemap 
+{ 
+	 left: 150px; 
+	 top: 100px; 
+	 position: absolute; 
+	 width: 130px;
+	 height: 22px;
+	 z-index:28;
+} 
+
+ #white-circle 
+{ 
+	 left: 150px; 
+	 top: 150px; 
+	 position: absolute; 
+	 width: 123px;
+	 height: 123px;
+	 z-index:29;
+} 
+
+ #hand 
+{ 
+	 left: 175px; 
+	 top: 175px; 
+	 position: absolute; 
+	 width: 59px;
+	 height: 66px;
+	 z-index:30;
+} 
+
+ #dice 
+{ 
+	 left: 125px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 218px;
+	 height: 218px;
+	 z-index:31;
+} 
+
+ #landedon3-bg 
+{ 
+	 left: 199px; 
+	 top: 210px; 
+	 position: absolute; 
+	 width: 1415px;
+	 height: 711px;
+	 z-index:32;
+} 
+
+ #OhtoobadYoulandedon3 
+{ 
+	 left: 559px; 
+	 top: 291px; 
+	 position: absolute; 
+	 width: 696px;
+	 height: 555px;
+	 z-index:33;
+}
+
+#modal
+{ 
+	 left: 200px; 
+	 top: 10px; 
+	 position: absolute; 
+	 width: 1000px;
+	 height: 555px;
+	 z-index:33;
+	 color: white;
+	 font-size: 100px;
+	 font-family: 'Heebo', sans-serif;
+	 text-align: center;
+} 
+
+#text {
+	margin: 15px;
+}
+
+#win {
+	margin: 15px;
+}
+
+#try-again {
+	left: 350px; 
+	 top: 500px; 
+	position: absolute; 
+	 width: 300px;
+	 height: 150px;
+	 z-index:33;
+	 background-color: white;
+	 font-size: 50px;
+	 font-family: 'Heebo', sans-serif;
+	 text-align: center;
+	 border-radius: 20px;
+}
+
+ #landedon4-bg 
+{ 
+	 left: 199px; 
+	 top: 210px; 
+	 position: absolute; 
+	 width: 1415px;
+	 height: 711px;
+	 z-index:34;
+} 
+
+ #GreatYoulandedon4You 
+{ 
+	 left: 573px; 
+	 top: 294px; 
+	 position: absolute; 
+	 width: 663px;
+	 height: 552px;
+	 z-index:35;
+} 
+
+ #blue-rac 
+{ 
+	 left: 80px; 
+	 top: 800px; 
+	 position: absolute; 
+	 width: 293px;
+	 height: 87px;
+	 z-index:36;
+} 
+
+ #green-rac 
+{ 
+	 left: 80px; 
+	 top: 800px; 
+	 position: absolute; 
+	 width: 293px;
+	 height: 87px;
+	 z-index:37;
+} 
+
+ #layer_38 
+{ 
+	 left: 1285px; 
+	 top: 1107px; 
+	 position: absolute; 
+	 width: 187px;
+	 height: 35px;
+	 z-index:38;
+} 
+
+ 
