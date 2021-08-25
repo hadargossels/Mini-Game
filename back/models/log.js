@@ -8,20 +8,25 @@ var Log = function (log) {
 }
 
 Log.create = function (newLog, result){
-    dbConn.request()
-    .input('ID', sql.Int(), newLog.id)
-    .input('IP', sql.VarChar(255), newLog.ip)
-    .input('ACTION', sql.VarChar(255), newLog.action)
-    .input('DateTime', sql.DateTime(), newLog.dateTime)
-    .query(`INSERT INTO Log (ID, IP, ACTION, DateTime) values (@ID,@IP,@ACTION,@DateTime)`, function (err, res) {
-        if(err){
-            console.log("error:", err)
-            return result(err, null)
-        }
-        else{
-            return result(null, res)
-        }
-    })
+    for (let i = 0; i < newLog.length; i++) {
+        dbConn.request()
+        .input('ID', sql.Int(), newLog[i].id)
+        .input('IP', sql.VarChar(255), newLog[i].ip)
+        .input('ACTION', sql.VarChar(255), newLog[i].action)
+        .input('DateTime', sql.DateTime(), newLog[i].dateTime)
+        .query(`INSERT INTO Log (ID, IP, ACTION, DateTime) values (@ID,@IP,@ACTION,@DateTime)`
+        // , function (err, res) {
+        //     if(err){
+        //         console.log("error:", err)
+        //         return result(err, null)
+        //     }
+        //     else{
+        //         return result(null, res)
+        //     }
+        // }
+        )
+    }
+
 }
 
 Log.findAll = function(result) {

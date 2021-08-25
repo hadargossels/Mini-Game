@@ -14,11 +14,9 @@ exports.findAll = function (req,res) {
 
 exports.create = function(req, res){
 
-    let LogData = JSON.parse(req.body) 
-    console.log(LogData)
+    let LogData = req.body
 
-        for (let i =0; i < LogData.length; i++) {
-            Log.create({...LogData[i]},function (err) {
+            Log.create(LogData,function (err) {
 
                 if (err)
                 return res.send(err)
@@ -26,9 +24,7 @@ exports.create = function(req, res){
                 else
                 // res.setHeader('Content-Range', `${logs.length}`)
                 return res.json({error:false, message: 'Log Added successfully'})
-            })
-        }
-        
+            })    
     
 }
 
