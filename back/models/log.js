@@ -14,7 +14,7 @@ Log.create = function (newLog, result){
         .input('IP', sql.VarChar(255), newLog[i].ip)
         .input('ACTION', sql.VarChar(255), newLog[i].action)
         .input('DateTime', sql.DateTime(), newLog[i].dateTime)
-        .query(`INSERT INTO Log (ID, IP, ACTION, DateTime) values (@ID,@IP,@ACTION,@DateTime)`
+        .query(`INSERT INTO Log (ID, IP, ACTION, DateTime) values (@ID,@IP,@ACTION,@DateTime)`)
         // , function (err, res) {
         //     if(err){
         //         console.log("error:", err)
@@ -24,7 +24,7 @@ Log.create = function (newLog, result){
         //         return result(null, res)
         //     }
         // }
-        )
+        
     }
 
 }
