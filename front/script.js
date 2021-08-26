@@ -1,11 +1,9 @@
 $(document).ready(function () {
     $("#landedon3-bg").hide();
-    $("#dice").children().hide()
-
-
-    dragElement(document.getElementById("background"));
+    $("#dice").children().hide()    
 
     function dragElement(elmnt) {
+    $("#background").css({"cursor": "grab"})
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
         elmnt.onmousedown = dragMouseDown;
 
@@ -31,10 +29,17 @@ $(document).ready(function () {
         }
 
         function closeDragElement() {
+            document.onmousedown = null;
             document.onmouseup = null;
             document.onmousemove = null;
+            $("#background").css({"cursor": "auto"})
         }
     }
+
+    $("#white-circle").click(() => {
+        return dragElement(document.getElementById("background"))
+    }        
+    )
 
     function rollDice () {
         return Math.floor(Math.random() * 6) + 1;
